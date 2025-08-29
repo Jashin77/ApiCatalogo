@@ -70,7 +70,7 @@ ApiCatalogo/
 │   └── AppDbContext.cs     # Configuração do EF Core e DbSets
 ```
 # informações sobre origem da Api
-esse api foi feita baseada em um projeto de um curso, porem com melhorias e boas praticas
+Essa api foi feita baseada em um projeto de um curso, porem com melhorias e boas praticas
 ## Melhorias implementadas
 
 - ✅ **Uso de métodos assíncronos (`async/await`)** para maior escalabilidade e melhor performance.
