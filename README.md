@@ -68,9 +68,9 @@ ApiCatalogo/
 │-- Context/
 │   └── AppDbContext.cs     # Configuração do EF Core e DbSets
 ```
-# informações sobre origem da Api
+# 📌 informações sobre origem da Api
 Essa api foi feita baseada em um projeto de um curso, porem com melhorias e boas praticas implementadas.
-## Melhorias implementadas
+## 📌 Melhorias implementadas
 
 Durante o desenvolvimento, além de aplicar o que foi ensinado no curso, adicionei boas práticas comuns em projetos reais de mercado:
 
