@@ -73,6 +73,14 @@ ApiCatalogo/
 O Swagger UI é habilitado automaticamente no ambiente de desenvolvimento.
 Para acessar, rode a aplicação.
 
+### Exemplo de visualização:
+<img width="1827" height="1004" alt="image" src="https://github.com/user-attachments/assets/e3791a27-5d35-4126-a698-879e37d01ca3" />
+
+### Exemplo de requisição no Swagger:
+<img width="1536" height="870" alt="image" src="https://github.com/user-attachments/assets/a522f7dc-e997-45c1-a23c-b8a29e447642" />
+
+
+
 # 🔒 Segurança e Boas Práticas
 - Nunca exponha senhas em arquivos versionados.
 - Utilize User Secrets (em dev) ou variáveis de ambiente (em produção).
