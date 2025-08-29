@@ -1,4 +1,5 @@
 using ApiCatalogo.Context;
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json.Serialization;
 
@@ -21,6 +22,24 @@ builder.Services.AddDbContext<AppDbContext>(options =>
                         ServerVersion.AutoDetect(mySqlConnection)));
 
 var app = builder.Build();
+
+app.UseExceptionHandler(errorApp =>
+{
+    errorApp.Run(async context =>
+    {
+        context.Response.StatusCode = 500;
+        context.Response.ContentType = "application/json";
+
+        var feature = context.Features.Get<IExceptionHandlerFeature>();
+        var exception = feature?.Error;
+
+        await context.Response.WriteAsJsonAsync(new
+        {
+            error = "Ocorreu um erro inesperado.",
+            detail = exception?.Message 
+        });
+    });
+});
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

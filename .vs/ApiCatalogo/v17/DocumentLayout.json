@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\\u00C1rea de Trabalho\\reporitorio\\ApiCatalogo\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC2DC9F0-A227-48D7-8218-8E4D446C10A5}|ApiCatalogo\\ApiCatalogo.csproj|d:\\\u00E1rea de trabalho\\reporitorio\\apicatalogo\\apicatalogo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EC2DC9F0-A227-48D7-8218-8E4D446C10A5}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC2DC9F0-A227-48D7-8218-8E4D446C10A5}|ApiCatalogo\\ApiCatalogo.csproj|d:\\\u00E1rea de trabalho\\reporitorio\\apicatalogo\\apicatalogo\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC2DC9F0-A227-48D7-8218-8E4D446C10A5}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC2DC9F0-A227-48D7-8218-8E4D446C10A5}|ApiCatalogo\\ApiCatalogo.csproj|d:\\\u00E1rea de trabalho\\reporitorio\\apicatalogo\\apicatalogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC2DC9F0-A227-48D7-8218-8E4D446C10A5}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC2DC9F0-A227-48D7-8218-8E4D446C10A5}|ApiCatalogo\\ApiCatalogo.csproj|d:\\\u00E1rea de trabalho\\reporitorio\\apicatalogo\\apicatalogo\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC2DC9F0-A227-48D7-8218-8E4D446C10A5}|ApiCatalogo\\ApiCatalogo.csproj|solutionrelative:apicatalogo\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +26,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\ApiCatalogo\\ApiCatalogo\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "ApiCatalogo\\Controllers\\ProdutosController.cs",
+              "ToolTip": "D:\\\u00C1rea de Trabalho\\reporitorio\\ApiCatalogo\\ApiCatalogo\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "ApiCatalogo\\Controllers\\ProdutosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T13:09:01.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\ApiCatalogo\\ApiCatalogo\\Program.cs",
+              "RelativeDocumentMoniker": "ApiCatalogo\\Program.cs",
+              "ToolTip": "D:\\\u00C1rea de Trabalho\\reporitorio\\ApiCatalogo\\ApiCatalogo\\Program.cs",
+              "RelativeToolTip": "ApiCatalogo\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T12:39:49.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\ApiCatalogo\\ApiCatalogo\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "ApiCatalogo\\Controllers\\CategoriasController.cs",
+              "ToolTip": "D:\\\u00C1rea de Trabalho\\reporitorio\\ApiCatalogo\\ApiCatalogo\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "ApiCatalogo\\Controllers\\CategoriasController.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAkwFsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T12:34:47.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\\u00C1rea de Trabalho\\reporitorio\\ApiCatalogo\\ApiCatalogo\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiCatalogo\\appsettings.json",
+              "ToolTip": "D:\\\u00C1rea de Trabalho\\reporitorio\\ApiCatalogo\\ApiCatalogo\\appsettings.json",
+              "RelativeToolTip": "ApiCatalogo\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-29T11:25:31.91Z",
+              "EditorCaption": ""
             }
           ]
         }
