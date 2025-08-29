@@ -77,3 +77,5 @@ Para acessar, rode a aplicação.
 - Nunca exponha senhas em arquivos versionados.
 - Utilize User Secrets (em dev) ou variáveis de ambiente (em produção).
 
+## 🪪 Licença
+Você pode usar, modificar e melhorar esse projeto livremente.
