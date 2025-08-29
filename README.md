@@ -1,6 +1,5 @@
 # 📦 ApiCatalogo
-Uma API REST desenvolvida em **ASP.NET Core 8** com **Entity Framework Core** e **MySQL**, que permite gerenciar um catálogo de **Produtos** e **Categorias**.  
-A API utiliza **Swagger** para documentação e testes interativos.
+API REST para gerenciamento de catálogo de produtos e categorias, construída com .NET 8 e EF Core, seguindo boas práticas de mercado (validação automática, async/await, logging e tratamento de erros).
 
 ---
 
@@ -72,6 +71,8 @@ ApiCatalogo/
 # informações sobre origem da Api
 Essa api foi feita baseada em um projeto de um curso, porem com melhorias e boas praticas implementadas.
 ## Melhorias implementadas
+
+Durante o desenvolvimento, além de aplicar o que foi ensinado no curso, adicionei boas práticas comuns em projetos reais de mercado:
 
 - ✅ **Uso de métodos assíncronos (`async/await`)** para maior escalabilidade e melhor performance.
 - ✅ **Tratamento de erros centralizado** com middleware global, evitando repetição de `try/catch` em cada controller.
