@@ -69,6 +69,17 @@ ApiCatalogo/
 │-- Context/
 │   └── AppDbContext.cs     # Configuração do EF Core e DbSets
 ```
+# informações sobre origem da Api
+esse api foi feita baseada em um projeto de um curso, porem com melhorias e boas praticas
+## Melhorias implementadas
+
+- ✅ **Uso de métodos assíncronos (`async/await`)** para maior escalabilidade e melhor performance.
+- ✅ **Tratamento de erros centralizado** com middleware global, evitando repetição de `try/catch` em cada controller.
+- ✅ **Validação automática de modelos** via `[ApiController]` e Data Annotations (ex: `[Required]`, `[StringLength]`).
+- ✅ **Status codes adequados** (`201 Created`, `204 NoContent`, `404 NotFound`) seguindo boas práticas REST.
+- ✅ **Logging estruturado** com `ILogger` para facilitar monitoramento e debug.
+- ✅ **Tratamento de concorrência** em operações `PUT` usando `DbUpdateConcurrencyException`.
+
 # 📖 Documentação via Swagger
 O Swagger UI é habilitado automaticamente no ambiente de desenvolvimento.
 Para acessar, rode a aplicação.
